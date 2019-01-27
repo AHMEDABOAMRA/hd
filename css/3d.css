@@ -1,0 +1,733 @@
+body{
+perspective: 600px;
+
+}.navbar-nav{
+    margin-left: 65%;
+         background: none;
+         font-size: 1rem;
+ 
+     } 
+     .navbar{
+             background: rgba(114, 109, 109, 0.623);
+             box-shadow: 10px 10px 10px black;
+     
+         }  .navbar-toggler{
+font-size: 1rem;  
+left: 80%;
+position: relative;  
+        }  .navbar .navbar-brand img{
+            width: 40%;            transition: all 1s ease-in-out;    
+
+          }  .navbar .navbar-brand img:hover{
+            width: 40%;        transform: translate(10px,10px);
+
+          } 
+    
+  
+    
+.navbar .nav-link{
+            transition: all 1s ease-in-out;    
+margin: 1rem;
+transform-style: preserve-3d;        }
+    .navbar .nav-link:hover{
+        transform: translate(10px,10px);
+        border-bottom: .5px solid red;
+
+            
+            }.dropdown-menu{
+               width: 200px;
+                 }
+  
+                 #a{
+                    color: rgb(0, 0, 0);                      } .item h3{
+
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+font-size: 4rem;
+margin-left: 7%;
+text-transform: capitalize;
+
+
+                        color: rgb(10, 1, 1);                      }
+                        .item p{
+                            font-family: 'Courier New', Courier, monospace;
+                            text-transform: capitalize;
+
+                            text-align: center;
+                            font-size: 3rem;
+                            margin-left: 7%;
+                            
+                            
+                                                    color: rgb(3, 0, 0);                      }
+                                                    .buttoneffect .button{
+                                                        display: inline-block;
+                                                        margin: 20px;
+                                                        margin-top: 10px;
+                                                        margin-left:45%;
+                                                        width: 160px;
+                                                        padding: 10px;
+                                                        text-align: center;
+                                                        background-color:#ab14e6;
+                                                        cursor: pointer;
+                                                    border: none;        border-radius: 15px;
+                                                    color: #f5f5f5;
+                                                    overflow: hidden;
+                                                    position: relative;
+                                                    
+                                                          }
+                                                        .button span:first-child{
+                                                 
+                                                             position: absolute;
+                                                             left: 0;
+                                                             top: 0;
+                                                             width: 100%;
+                                                             height: 0%;
+                                                             display: inline-block;
+                                                             background-color: rgb(16, 47, 221);
+                                                             z-index: 1;
+                                                                }.button span:last-child{
+                                                            position: relative;
+                                                 
+                                                                 z-index: 2;
+                                                                    } .buttoneffect .border-left{
+                                                                        display: inline-block;
+                                                                       margin: 20px;
+                                                                       margin-top: 10px;
+                                                                       margin-left:45%;
+                                                                       width: 160px;
+                                                                       padding: 10px;
+                                                                       text-align: center;
+                                                                       background-color:#9d3b12;
+                                                                       cursor: pointer;
+                                                                      border: none;        border-radius: 15px;
+                                                                      color: #298096;
+                                                                      overflow: hidden;
+                                                                      position: relative;
+                                                                         }
+                                                                   .buttoneffect .border-left {
+                                                   
+                                                   border-radius:0;
+                                                   background-color:rgb(243, 61, 204);
+                                                   color: #298096;
+                                                   overflow: visible;
+                                                   
+                                                   
+                                                   
+                                                                      } .border-left span:first-child {
+                                                                        background-color: #298096;
+                                                    
+                                                                        width:0%;
+                                                                        height: 3px;
+                                                                        top: auto;
+                                                                        bottom:-3px;
+                                                    
+                                                    
+                                                                                           }   
+             
+                 
+                 .mainSlider{
+                        z-index: 1000;
+                       height: 800px;
+                       width: 100%;
+                       margin-top: 10rem;
+                       border-radius: 0px 0px 600px  ;
+                       background-color:#ab14e6;
+                       transition: all 1s ease-in-out;
+                       transform: translate(-10px,-10px);
+                       }
+                       
+                       .mainSlider:hover{
+
+transform: translate(0,-20px);
+
+}
+                     
+                       .slickSlider{
+                             width:100%;overflow: visible;
+
+position: relative;
+top:10rem;                               height: 300px;
+                              
+                           background-color: white;
+                                   
+                             
+                                  }.fadeInUp {
+                                    animation-duration: 3s;
+                                    animation-delay: 2s;
+                                    animation-iteration-count: infinite;
+                                  }    
+                                  .heads h1{
+                                   width: 100%;
+                                   height: 100%;
+                                   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                   font-size: 4rem;
+                                   text-align: center;
+                                   color: rgb(7, 0, 0);
+                                  }    
+
+
+
+                                  .grand{
+                                   width: 100%;
+                                   height: 100%;
+                                   background-color: rgb(255, 253, 253);
+                                   display: grid; grid-template-columns:1fr 1fr 1fr;
+                                   grid-gap: 1rem;
+                                   padding: 1rem;
+                                   border-radius: 10px 10px 10px  ;
+
+
+                                  }   
+  .mother{
+    top: 2rem; 
+     width: 500px;
+     height: 700px;
+     border-radius: 70px;
+                                
+                                   transform-style: preserve-3d;
+                                   transition: all 2s ease-in-out;
+                                   position: relative;
+                                   backface-visibility: visible;                                  
+
+                                   
+                                  }    .mother div{
+                                   position: absolute;
+                                   top: 0;
+                                   left: 0;
+                                   line-height: 300px;
+                                   text-align: center;
+                                   width: 100%;
+                                   height: 100%;
+
+                                   }     .mother:hover{
+                                    transform: rotateY(180deg);
+                                    ;
+
+                                     
+                                     
+                                                 } .a{
+                                                    z-index: 2;
+background-color: rgb(255, 254, 254);                                                    backface-visibility: hidden;
+                                                    border-radius: 80px 80px 80px;
+                                                    box-shadow: 20px 20px 20px rgb(28, 29, 21);
+                                                 }.grand img{
+                                                   width: 30%;
+                                                   border-radius: 50%;
+                                                 }.grand h3{
+                                                    font-size: 2rem;
+                                                  }.grand h2{
+border-bottom: 1px solid black;          
+margin-bottom: 1rem;font-family: Arial, Helvetica, sans-serif;                                        }
+                                                 .b{
+                                                     z-index: 1;
+                                                     background-color: rgb(255, 255, 255);                                                      transform: rotateY(180deg);
+                                                     border-radius: 80px 80px 80px;
+
+                                                     box-shadow: 20px 20px 20px rgb(28, 29, 21);
+
+                                                    }
+                                                    .we{
+                                                        transition: all 2s ease-in-out;
+                                                        transform: translateZ(-100px);
+                                                        z-index: 1;
+   
+                                                       }
+                                                       .we:hover{
+                                                        
+                                                        transform: translateZ(-70px);
+   
+                                                       }
+
+                                                       .father{
+                                                        top: 4rem;
+                                                        width: 500px;
+                                                        height: 700px;
+                                                        transform-style: preserve-3d;
+                                                        transition: all 2s ease-in-out;
+                                                        position: relative;
+                                                        backface-visibility: visible;                                  
+                                                       
+                                                        
+                                                       }       .father div{
+                                                        position: absolute;
+                                                        top: 0;
+                                                        left: 0;
+                                                        line-height: 300px;
+                                                        text-align: center;
+                                                        width: 100%;
+                                                        height: 100%;
+                     
+                                                        }     .father:hover{
+                                                         transform: rotateY(180deg);
+                                                         ;
+                     
+                                                          
+                                                          
+                                                                      } .c{
+                                                                         z-index: 2;
+                                                                         background-color: rgb(255, 254, 254);                                                                          backface-visibility: hidden;
+                                                                         border-radius: 80px 80px 80px;
+                                                                         box-shadow: 20px 20px 20px rgb(28, 29, 21);
+                                                                         width: 100%;
+                                                                         height: 100%;
+                                                                      }
+                                                                      .d{
+                                                                          z-index: 1;
+                                                                          background-color: rgb(255, 254, 254);                                                                           transform: rotateY(180deg);
+                                                                          border-radius: 80px 80px 80px;
+                                                                          box-shadow: 20px 20px 20px rgb(28, 29, 21);
+
+                                                                         }
+                                                                         .he{
+                                                                             transition: all 2s ease-in-out;
+                                                                             transform: translateZ(-200px);
+                        
+                                                                            }
+                                                                            .he:hover{
+                                                                             
+                                                                                transform: translateZ(-150px);
+                           
+                                                                               }
+
+
+
+
+                                                                            .son{
+                                                                            left: 1rem;
+top: 6rem;
+width: 500px;
+    height: 700px;
+                                                                                transform-style: preserve-3d;
+                                                                                transition: all 2s ease-in-out;
+                                                                                position: relative;
+                                                                                backface-visibility: visible;                                  
+                                             
+                                                                                
+                                                                               }    .son div{
+                                                                                position: absolute;
+                                                                                top: 0;
+                                                                                left: 0;
+                                                                                line-height: 300px;
+                                                                                text-align: center;
+                                                                                width: 100%;
+                                                                                height: 100%;
+                                             
+                                                                                }     .son:hover{
+                                                                                 transform: rotateY(180deg);
+                                                                                 ;
+                                             
+                                                                                  
+                                                                                  
+                                                                                              } .e{
+                                                                                                 z-index: 2;
+                                                                                                 background-color: rgb(255, 254, 254);                                                                                                  backface-visibility: hidden;
+                                                                                                 border-radius: 80px 80px 80px;
+                                                                                                 box-shadow: 20px 20px 20px rgb(28, 29, 21);
+
+                                                                                              }
+                                                                                              .f{
+                                                                                                  z-index: 1;
+                                                                                                  background-color: rgb(255, 254, 254);                                                                                                   transform: rotateY(180deg);
+                                                                                                  border-radius: 80px 80px 80px;
+                                                                                                  box-shadow: 20px 20px 20px rgb(28, 29, 21);
+
+                                                                                                 }
+                                                                                                 .she{
+                                                                                                     transition: all 2s ease-in-out;
+                                                                                                     transform: translateZ(-250px);
+                                                
+                                                                                                    }
+                                                                                               
+
+
+
+                                                                                                    .she:hover{
+                                                                                                     
+                                                                                                        transform: translateZ(-150px);
+                                                   
+                                                                                                       }
+                                                                                                       .grand h4{
+                                                                                                        font-size: 1rem;
+                                                                                                      }
+                                                                                                      .icons{
+width: 100%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 1rem;
+padding: 1rem;
+background-color: rgb(250, 250, 250);
+height: 300px;
+
+}
+.icons h9{
+    position: relative;
+    left: 45%;}
+    .icons  .fa-laptop{
+     position: relative;
+     font-size: 3rem;
+         left: 44%;
+
+     vertical-align: middle;
+     color: #ef6249 !important;
+     transition: all 1s ease-in-out;
+     transform: translateZ(0px);
+
+        
+        }   .icons  .fa-laptop:hover{
+            transform: translateZ(-6px);
+
+               
+               }   .icons .fab{
+            position: relative;
+            font-size: 3rem;
+            left: 46%;
+            color: #ef6249 !important;
+            transform: translateZ(0px);
+            transition: all 1s ease-in-out;
+
+            }  .icons .fab:hover{
+                position: relative;
+                font-size: 3rem;
+                left: 46%;
+                color: #ef6249 !important;
+                transform: translateZ(-6px);
+
+                }
+                .icons p{
+                   text-align: center;
+                   color: black;
+                    } .icons  .fa-mobile-alt{
+                        position: relative;
+                        font-size: 3rem;
+                            left: 47%;
+                            color: #ef6249 !important;
+                            transform: translateZ(0px);
+                            transition: all 1s ease-in-out;
+                        vertical-align: middle;
+                      
+                           
+                           } .icons  .fa-mobile-alt:hover{
+                            position: relative;
+                            font-size: 3rem;
+                                left: 47%;
+                                color: #ef6249 !important;
+                                transform: translateZ(-6px);
+
+                            vertical-align: middle;
+                          
+                               
+                               }.ico1,.ico2,.ico3{
+                           margin-top: 3rem;
+                               
+                               } .footer{
+width: 100%;
+display: grid;
+height: 600px;
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 1rem;
+padding: 1rem;
+background-color: #000;                                    
+                                    } 
+                                    .footer h4,p,.fa{
+                                       color: #fff;      }  .footer input{
+background-color: #000;
+border: 2px solid rgb(250, 250, 250);
+width: 70%;
+
+
+                                        color: #fff;      } .footer .fa{
+                                            margin: .5rem;     } 
+                                            .footer .fa:hover{
+                                                color: red;   } 
+                                                .f1,.f2,.f3{
+                                                   margin-top: 13rem;   } 
+                                                                 
+                 
+                
+             
+            
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                  
+                                                    
+                                  @media only screen and (min-width: 320px) and (max-width: 1000px) and  (orientation:portrait ){
+                                     .buttoneffect .button{
+                                         
+                                         margin-left:30%;
+                                        
+                                     
+                                           }   .mainSlider{
+                                            z-index: 1000;
+                                           height: 800px;
+                                           width: 100%;
+                                           margin-top: 10rem;
+                                           border-radius: 0px 0px 600px  ;
+                                           background-color:#fff;
+                                           transition: all 1s ease-in-out;
+                                           transform: translate(-10px,-10px);
+                                           }.footer{
+                                            width: 100%;
+                                            display: grid;
+                                            height: 100%;
+                                            grid-template-columns: 1fr ;
+                                            grid-gap: 1rem;
+                                            padding: 1rem;
+                                            background-color: #000;                                    
+                                                                                } .navbar .navbar-brand img{
+                                            width: 30%;
+                                          }  .grand h3{
+                                            font-size: 1rem;
+                                          } .she{
+                                            transition: all 2s ease-in-out;
+                                            transform: translateZ(-100px);
+
+                                           }.she:hover{
+                                                                                                     
+                                            transform: translateZ(-90px);
+
+                                           }
+                                       .father{
+                                            top: 4rem;
+                                            width: 300px;
+                                            height: 500px;
+                                            transform-style: preserve-3d;
+                                            transition: all 2s ease-in-out;
+                                            position: relative;
+                                            backface-visibility: visible;                                  
+                                           font-size: 1rem;
+                                            
+                                           }  .mother{
+                                            top: 4rem;
+                                            width: 300px;
+                                            height: 500px;
+                                            transform-style: preserve-3d;
+                                            transition: all 2s ease-in-out;
+                                            position: relative;
+                                            backface-visibility: visible;                                  
+                                            font-size: 1rem;
+
+                                            
+                                           }  .son{
+                                            top: 4rem;
+                                            width: 300px;
+                                            height: 500px;
+                                            transform-style: preserve-3d;
+                                            transition: all 2s ease-in-out;
+                                            position: relative;
+                                            backface-visibility: visible;                                  
+                                            font-size: 1rem;
+
+                                            
+                                           }  .grand{
+                                            width: 100%;
+                                            height: 100%;
+                                            background-color: rgb(248, 248, 248);
+                                            display: grid; grid-template-columns:1fr;
+                                            grid-gap: 1rem;
+                                            padding: 1rem;
+                                            border-radius: 10px 10px 10px  ;
+         
+         
+                                           }   
+                                         
+                                     .item h3{
+                 
+                                         text-align: center;
+                                         font-family: 'Courier New', Courier, monospace;
+                                         font-size: 2rem;
+                                         margin-left: 7%;
+                                         text-transform: capitalize;
+                                         
+                                         
+                                                                 color: rgb(10, 1, 1);                      }
+                                                                 .item p{
+                                                                     font-family: 'Courier New', Courier, monospace;
+                                                                     text-transform: capitalize;
+                                         
+                                                                     text-align: center;
+                                                                     font-size: 2rem;
+                                                                     margin-left: 7%;
+                                                                     
+                                                                     
+                                                                                             color: rgb(3, 0, 0);                      } .navbar-nav{
+                                         margin-left: 0%;
+                                              background: none;
+                                              font-size: 1rem;
+                                              
+                                          }
+
+
+                                          .icons{
+                                            width: 100%;
+                                            display: grid;
+                                            grid-template-columns: 1fr ;
+                                            grid-gap: 1rem;
+                                            padding: 1rem;
+                                            height: 100%;
+                                            }
+                                            .icons h9{
+                                                position: relative;
+                                                left: 45%;}
+                                                .icons  .fa-laptop{
+                                                 position: relative;
+                                                 font-size: 3rem;
+                                                     left: 42%;
+                                            
+                                                 vertical-align: middle;
+                                                 color: #ef6249 !important;
+                                                
+                                                    
+                                                    }    .icons .fab{
+                                                        position: relative;
+                                                        font-size: 3rem;
+                                                        left: 46%;
+                                                        color: #ef6249 !important;
+                                            
+                                                        }
+                                                            .icons p{
+                                                               text-align: center;
+                                                               font-size: 1rem;
+                                                                } .icons  .fa-mobile-alt{
+                                                                    position: relative;
+                                                                    font-size: 3rem;
+                                                                        left: 47%;
+                                                                        color: #ef6249 !important;
+                                            
+                                                                    vertical-align: middle;
+                                                                  
+                                                                       
+                                                                       } 
+                                                    
+                                                
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                         
+                                      
+                                         
+                                            
+                                       }   
+                                       @media only screen and (min-width: 320px) and (max-width: 1000px) and (orientation:landscape){
+                                          .buttoneffect .button{
+                                              
+                                              margin-left:37%;
+                                             
+                                          
+                                                }
+                                                .footer{
+                                                    width: 100%;
+                                                    display: grid;
+                                                    height: 100%;
+                                                    grid-template-columns: 1fr ;
+                                                    grid-gap: 1rem;
+                                                    padding: 1rem;
+                                                    background-color: #000;                                    
+                                                                                        }.icons{
+                                                    width: 100%;
+                                                    display: grid;
+                                                    grid-template-columns: 1fr ;
+                                                    grid-gap: 1rem;
+                                                    padding: 1rem;
+                                                    height: 100%;
+                                                    }.she{
+                                                    transition: all 2s ease-in-out;
+                                                    transform: translateZ(-100px);
+        
+                                                   }.she:hover{
+                                                                                                             
+                                                    transform: translateZ(-90px);
+        
+                                                   }
+                                                .grand{
+                                                    width: 100%;
+                                                    height: 100%;
+                                                    background-color: rgb(248, 248, 248);
+                                                    display: grid; grid-template-columns:1fr;
+                                                    grid-gap: 1rem;
+                                                    padding: 1rem;
+                                                    border-radius: 10px 10px 10px  ;
+                 
+                 
+                                                   }   
+                                          .item h3{
+                      
+                                              text-align: center;
+                                              font-family: 'Courier New', Courier, monospace;
+                                              font-size: 2rem;
+                                              margin-left: 7%;
+                                              text-transform: capitalize;
+                                              
+                                              
+                                                                      color: rgb(10, 1, 1);                      }
+                                                                      .item p{
+                                                                          font-family: 'Courier New', Courier, monospace;
+                                                                          text-transform: capitalize;
+                                              
+                                                                          text-align: center;
+                                                                          font-size: 2rem;
+                                                                          margin-left: 7%;
+                                                                          
+                                                                          
+                                                                                                  color: rgb(3, 0, 0);                      } .navbar-nav{
+                                              margin-left: 0%;
+                                                   background: none;
+                                                   font-size: 1rem;
+                                                   
+                                               }
+                                              
+                                           
+                                              
+                                                 
+                                            }
