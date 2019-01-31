@@ -10,13 +10,8 @@ perspective: 600px;
      .navbar{
              background: rgba(114, 109, 109, 0.623);
              box-shadow: 10px 10px 10px black;
-     
-         }  .navbar-toggler{
-font-size: 1rem;  
-left: 70%;
-bottom:3.3rem;
-position: relative;  
-        }  .navbar .navbar-brand img{
+     width: 100%;
+         }  .navbar .navbar-brand img{
             width: 40%;            transition: all 1s ease-in-out;    
 
           }  .navbar .navbar-brand img:hover{
@@ -483,7 +478,10 @@ width: 70%;
                                          margin-left:30%;
                                         
                                      
-                                           }     .f1,.f2,.f3{
+                                           }   .navbar{
+                                            width: 100%;
+                                    
+                                        }    .f1,.f2,.f3{
                                             margin-top: 1rem;   } 
                                                           
           
